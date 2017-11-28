@@ -217,7 +217,7 @@ $(document).ready(function() {
 					app.vars.bidderData[i].monii = (app.vars.nonBidMonii - app.vars.bidderData[i].totalShare);
 					app.vars.bidderData[i].monii = app.vars.bidderData[i].monii.toFixed(2);
 
-					$("section#results div#bidders ul").append("<li>"+app.vars.bidderData[i].playerName+"<span> "+app.vars.bidderData[i].monii+"g<span></li>");
+					$("section#results div#bidders ul").append("<li>"+app.vars.bidderData[i].playerName+":<span> "+app.vars.bidderData[i].monii+"g<span></li>");
 
 				};
 
