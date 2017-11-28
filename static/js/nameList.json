@@ -1,0 +1,22 @@
+jacinto = [
+	{
+		itemname: "fire earring",
+		gold: 400,
+		player:
+	}
+]
+
+
+object = [
+	{
+		playerName: "YuikoChan",
+		totalBid: 500
+	},
+
+	{
+		playerName: "YuikoChan",
+		totalBid: 400
+	},
+]
+
+object[i].PlayerName krijgt (app.vars.nonBidMonii - totalBid) Gold

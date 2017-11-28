@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>raid monii</title>
+		<link rel="stylesheet" type="text/css" href="static/css/skeleton.css">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		<script src="static/js/underscore-min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Raid Monii</h1>
+
+		<section id="players">
+			<div class="row">
+				<div id="people" class="six columns">
+					<h2>People</h2>
+					<ul id="peoplelist">
+					</ul>
+				</div>
+
+				<div id="participants" class="six columns">
+					<h2>Participants <span>0/12</span></h2>
+					<ol id="participantlist">
+					</ol>
+				</div>
+			</div>
+			<button>next</button>
+		</section>
+
+
+
+		<section id="bids" class="remove">
+				<div class="labels">
+					<div>Item name:</div>
+					<div>Gold:</div>
+					<div>Player name:</div>
+				</div>
+			<ul>
+				<li><input type='text'></input><input type='text'></input><select></select></li>
+			</ul>
+			<button id="addItem">+ add Item</button>
+			<button id="raidDone">done</button>
+		</section>
+
+
+
+
+		<section id="results">
+			<div id="bidders">
+				<h2>People who bid:</h2>
+				<ul>
+				</ul>
+			</div>
+
+			<div id="others">
+				<h2>People who didnt bid: <span></span></h2>
+				<p></p>
+			</div>
+		</section>
+	</body>
+<script type="text/javascript" src="static/js/javascript.js"></script>
+<script type="text/javascript" src="static/js/jquery.js"></script>
+</html>
