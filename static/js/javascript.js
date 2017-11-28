@@ -232,6 +232,7 @@ $(document).ready(function() {
 
 			show: function(){
 				$("section#results div#others h2 span").append("("+ (app.vars.participants.length - app.vars.bidders.length) + " people)");
+				$("section#results div#others h3 span").append(app.vars.totalGold+"g");
 			}
 
 			
