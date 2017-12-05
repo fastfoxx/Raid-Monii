@@ -94,7 +94,7 @@ $(document).ready(function() {
     				$("#participantlist").append( "<li>"+ app.vars.participants[i]+ "</li>");
 				};
 
-				$("#participants span").html(app.vars.participants.length+"/12");
+				$("#participants span").html(app.vars.participants.length+"/"+app.vars.raidMax);
 			}
 		},
 
