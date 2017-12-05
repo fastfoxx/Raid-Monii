@@ -21,19 +21,18 @@ $(document).ready(function() {
 			nonBidMonii: 0,
 			totalGold: 0,
 			nameList: [
-				"Umbreon",
-				"Yunbek",
-				"Sparrow Lionheart",
-				"VanFamme Afroman",
-				"SunnyDeathray",
-				"Hisu Senpai",
-				"MegaT",
+				"Misaki VII",
 				"Tanaka Mizuki",
-				"Vaocia",
-				"Kika",
+				"Sparrow Lionheart",
 				"Ten",
+				"Frost",
+				"Vaaoo",
 				"Nagi",
-				"Queer"
+				"Kandeta",
+				"Rayuni",
+				"Gungrave",
+				"Kondrra",
+				"Vandelea",
 				]
 
 		},
