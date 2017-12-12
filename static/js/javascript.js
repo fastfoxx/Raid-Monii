@@ -32,7 +32,7 @@ $(document).ready(function() {
 				"Yuukimaru",
 				"Nastrcy",
 				"Kondrra",
-				"Nagi",
+				"Evillie",
 				]
 
 		},
